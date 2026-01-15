@@ -7,7 +7,7 @@ export class ConfigManager {
         return process.env.HEADLESS !== 'false';
     }
 
-    static getBrowser(): 'chromium' | 'firefox' | 'webkit' {
+    static getBrowser(): 'chromium' | 'firefox' | 'webkit' | 'msedge' {
         return (process.env.BROWSER as any) || 'chromium';
     }
 

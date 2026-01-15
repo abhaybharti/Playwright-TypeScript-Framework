@@ -1,6 +1,6 @@
 import { Page } from '@playwright/test';
-import { UIActions } from '../actions/UIActions';
-import { AssertUtils } from '../assertions/AssertUtils';
+import { UIActions } from '../helper/actions/UIActions';
+import { AssertUtils } from '../helper/asserts/AssertUtils';
 import { LoginPageLocators } from './locators/LoginPageLocators';
 
 export class LoginPage {
