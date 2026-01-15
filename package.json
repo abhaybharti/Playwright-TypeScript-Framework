@@ -1,0 +1,32 @@
+{
+  "name": "playwright-typescript-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write",
+    "pretest": "tsc --noEmit && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhaybharti/Playwright-TypeScript-Framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhaybharti/Playwright-TypeScript-Framework/issues"
+  },
+  "homepage": "https://github.com/abhaybharti/Playwright-TypeScript-Framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.8",
+    "@typescript-eslint/eslint-plugin": "^8.53.0",
+    "@typescript-eslint/parser": "^8.53.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-playwright": "^2.5.0",
+    "eslint-plugin-promise": "^6.6.0",
+    "prettier": "^3.8.0",
+    "typescript": "^5.9.3"
+  }
+}
